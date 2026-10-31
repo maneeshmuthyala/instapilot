@@ -1,0 +1,10 @@
+@'
+.env
+*.db
+__pycache__/
+*.pyc
+*.old.py
+requirements.old.txt
+body.json
+reel.json
+'@ | Set-Content backend\.gitignore -Encoding ascii
